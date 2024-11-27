@@ -11,6 +11,10 @@ import { HiCheckCircle } from "react-icons/hi";
 export const Header = styled.section`
   position: relative;
   margin-top: 10rem;
+
+  ${mediaMaxWidth("mobile")`
+    margin-top: 8rem;
+  `}
 `;
 
 export const Wrapper = styled(_Wrapper)`

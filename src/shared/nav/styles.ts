@@ -137,7 +137,6 @@ export const Mail = styled(_Mail)`
 export const Button = styled.button`
   cursor: pointer;
   position: relative;
-  top: 0.5rem;
 `;
 
 export const MenuIcon = styled(_Menu)``;

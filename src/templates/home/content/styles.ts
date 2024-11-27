@@ -1,3 +1,4 @@
+import { ButtonSwipe } from "@/components/atoms/button-swipe";
 import { LazyImage } from "@/components/atoms/lazy-image";
 import { SubtitleLight } from "@/styles/components/subtitle";
 import { TitleBig } from "@/styles/components/titles";
@@ -27,6 +28,10 @@ export const AboutUsContainer = styled.section`
       width: calc(100% - (2.2rem * 2))
     `}
   }
+`;
+
+export const Button = styled(ButtonSwipe)`
+  background: #2d7178;
 `;
 
 export const Wrapper = styled(_Wrapper)`
@@ -68,6 +73,11 @@ export const List = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 5rem;
+  margin-bottom: 8rem;
+
+  ${mediaMaxWidth("mobile")`
+    margin-bottom: 5rem;
+  `}
 `;
 
 export const Item = styled.li`

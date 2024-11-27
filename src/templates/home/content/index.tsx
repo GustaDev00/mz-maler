@@ -21,6 +21,7 @@ export default () => {
               </S.Item>
             ))}
           </S.List>
+          <S.Button href="/#kontakt">kontakt</S.Button>
         </S.Content>
         <S.Container>
           <S.ImgBig {...C.aboutUsContent.imgs} />

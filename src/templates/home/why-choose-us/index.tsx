@@ -3,7 +3,7 @@ import C from "@/constants";
 
 export default () => {
   return (
-    <S.WhyChooseUs>
+    <S.WhyChooseUs id="mehr-erfahren">
       <S.Wrapper>
         <S.Content>
           <S.Title>{C.whyChooseUs.title}</S.Title>

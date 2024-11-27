@@ -30,9 +30,7 @@ export default () => {
                 Farbgestaltung, die wirkt. Von Wohnräumen bis zu Fassaden – wir schaffen
                 beeindruckende Oberflächen, die lange halten.
               </S.Description>
-              <S.Link href="/#kontakt" title="Kontaktieren Sie uns">
-                kontakt
-              </S.Link>
+              <S.Link href="/#kontakt">kontakt</S.Link>
             </S.Content>
           </S.Card>
           <S.Card>

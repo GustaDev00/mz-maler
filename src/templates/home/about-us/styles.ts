@@ -61,7 +61,8 @@ export const Wrapper = styled(_Wrapper)`
   `}
 
   ${mediaMaxWidth("mobile")`
-    gap: 15rem;
+    gap: 4rem;
+    padding-top: 8rem;
   `}
 `;
 
@@ -81,8 +82,8 @@ export const ImgBig = styled(LazyImage)`
   `}
 
   ${mediaMaxWidth("mobile")`
-    width: 29.2rem;
-    height: 27.6rem;
+    width: 100%;
+    height: 57.6rem;
   `}
 `;
 
@@ -136,6 +137,7 @@ export const List = styled.ul`
 
   ${mediaMaxWidth("mobile")`
     gap: 3.2rem;
+    margin-top: 4rem;
   `}
 `;
 

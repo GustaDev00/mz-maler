@@ -54,7 +54,7 @@ export default {
         <CustomBr byViewport="mobile" /> Auge für das Besondere.
       </>
     ),
-    button: { title: "Mehr erfahren", href: "/#kontakt" },
+    button: { title: "Mehr erfahren", href: "/#mehr-erfahren" },
     slider: [
       { src: "/imgs/slider/slider2.png", alt: "Img 01", title: "Img 01" },
       { src: "/imgs/slider/slider3.png", alt: "Img 01", title: "Img 01" },
@@ -165,25 +165,19 @@ export default {
         <strong>Fachkundige Beratung und Planung</strong>
         <br />
         “Von der Farbwahl bis zur Umsetzung begleiten wir Sie mit umfassender Beratung und einem
-        klaren Plan – für Ergebnisse, die Ihre Erwartungen übertreffen.
+        klaren Plan – für Ergebnisse, die Ihre Erwartungen übertreffen.“
       </>,
       <>
-        <strong>Fachkundige Beratung und Planung</strong>
+        <strong>Präzision und Qualität in jedem Schritt</strong>
         <br />
-        “Von der Farbwahl bis zur Umsetzung begleiten wir Sie mit umfassender Beratung und einem
-        klaren Plan – für Ergebnisse, die Ihre Erwartungen übertreffen.
+        “Wir arbeiten mit höchster Genauigkeit und hochwertigen Materialien, um langlebige und
+        ästhetisch überzeugende Ergebnisse zu erzielen.“
       </>,
       <>
-        <strong>Fachkundige Beratung und Planung</strong>
+        <strong>Zuverlässigkeit und Termintreue</strong>
         <br />
-        “Von der Farbwahl bis zur Umsetzung begleiten wir Sie mit umfassender Beratung und einem
-        klaren Plan – für Ergebnisse, die Ihre Erwartungen übertreffen.
-      </>,
-      <>
-        <strong>Fachkundige Beratung und Planung</strong>
-        <br />
-        “Von der Farbwahl bis zur Umsetzung begleiten wir Sie mit umfassender Beratung und einem
-        klaren Plan – für Ergebnisse, die Ihre Erwartungen übertreffen.
+        “Ihre Zeit ist wertvoll – wir halten uns an vereinbarte Zeiten und sorgen dafür, dass Ihr
+        Projekt planmässig und stressfrei abgeschlossen wird.“
       </>,
     ],
   },

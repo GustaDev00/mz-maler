@@ -78,7 +78,7 @@ export default () => {
 
   return (
     <>
-      <S.Modal $active={isModalOpen.isActive} $error={isModalOpen.send} id="kontakt">
+      <S.Modal $active={isModalOpen.isActive} $error={isModalOpen.send}>
         <S.ModalContent>
           <S.WrapperModal>
             <S.IconModal />
@@ -90,7 +90,7 @@ export default () => {
         <S.Blackout onClick={() => closeModal()} />
       </S.Modal>
 
-      <S.Contact>
+      <S.Contact id="kontakt">
         <S.Wrapper>
           <S.Title>{contact.title}</S.Title>
           <S.Subtitle>{contact.subtitle}</S.Subtitle>

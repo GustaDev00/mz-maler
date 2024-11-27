@@ -8,4 +8,8 @@ export const Link = styled(_Link)``;
 export const Logo = styled(LazyImage)`
   height: 9.1rem;
   object-fit: contain;
+
+  ${mediaMaxWidth("mobile")`
+    height: 6.1rem;
+  `}
 `;
