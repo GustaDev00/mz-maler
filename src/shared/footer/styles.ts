@@ -82,7 +82,7 @@ export const TextList = styled.p`
   }
 
   ${mediaMaxWidth("mobile")`
-    width: 62%;
+    width: 100%;
   `}
 `;
 
