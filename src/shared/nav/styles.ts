@@ -25,7 +25,6 @@ export const Header = styled.header`
   `}
 
   ${mediaMaxWidth("mobile")`
-    top: 1.5rem;
     padding: 1rem 2rem;
   `}
 `;

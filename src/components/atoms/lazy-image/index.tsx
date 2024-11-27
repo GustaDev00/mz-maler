@@ -51,22 +51,18 @@ export const LazyImage = forwardRef<HTMLImageElement, LazyImageProps>(
       <>
         {notLazy && (
           <Head>
-            {sourceWebp && (
-              <link rel="preload" as="image" href={`${process.env.NEXT_PUBLIC_URL}${sourceWebp}`} />
-            )}
-            <link rel="preload" as="image" href={`${process.env.NEXT_PUBLIC_URL}${src}`} />
+            {sourceWebp && <link rel="preload" as="image" href={`${sourceWebp}`} />}
+            <link rel="preload" as="image" href={`${src}`} />
           </Head>
         )}
         <S.Picture>
           {responsiveSource}
-          {sourceWebp && (
-            <source srcSet={`${process.env.NEXT_PUBLIC_URL}${sourceWebp}`} type="image/webp" />
-          )}
+          {sourceWebp && <source srcSet={`${sourceWebp}`} type="image/webp" />}
           <img
             ref={ref}
             {...props}
             className={className}
-            src={`${process.env.NEXT_PUBLIC_URL}${src}`}
+            src={`${src}`}
             alt={alt}
             title={alt}
             loading={notLazy ? "eager" : "lazy"}
