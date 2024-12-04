@@ -1,6 +1,6 @@
 export default {
   logo: {
-    src: "/imgs/logo.png",
+    src: "/imgs/logo.jpeg",
     alt: "Logo",
     title: "Logo",
   },
